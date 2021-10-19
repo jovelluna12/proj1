@@ -11,7 +11,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My website</title>
+	<title>Index Page</title>
 </head>
 <body>
 	<style>
