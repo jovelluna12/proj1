@@ -17,7 +17,6 @@ session_start();
 			//save to database
 			$user_id = random_num(20);
 			$encrypted_pass=password_hash($password,PASSWORD_DEFAULT);
-			$_SESSION["hash"]=$encrypted_pass;
 			$query = "insert into users (user_id,user_name,password) values ('$user_id','$user_name','$encrypted_pass')";
 
 			mysqli_query($con, $query);
